@@ -1,0 +1,156 @@
+<html>
+    <head>
+        <title>online bookstore</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0>
+          
+           <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">                            
+    </head>
+    <style>
+    *{
+            margin:0;
+            padding:0;
+            font-family: sans-serif;
+            
+        }
+            
+        }
+        .first{
+            font-family:sans-serif
+            font-size:45px;
+            text-align:center;
+            
+        }
+        .firstclass
+        {
+            position:absolute;
+            left:50%;
+            top:0%;
+            border-radius:20px;
+            background-color: aqua;
+            width:100px;
+            height:35px;
+            text-align: center;
+            font-family:sans-serif;
+            font-size:25px;
+            transform:translate(-50% ,-50%);
+            
+        }
+        input[type="button"]:hover
+        {
+            cursor:pointer;
+            background:orange;
+        }
+        header{
+            background-image:url('homepagebgimage.jpg');
+            height:100%;
+            background-size:cover;
+            backgorund-position:center;
+            opacity:1;
+            width:100%;
+            
+        }
+        .menu{
+            background:white;
+            
+            
+        }
+        ul{
+            float:right;
+            list-style-type: none;
+            margin-top:25px;
+            margin-right: 35px;
+        }
+        ul li{
+            display:inline-block;
+            background-white;
+        }
+        ul li a {
+            text-decoration: none;
+            color:white; 
+            padding:5px 20px;
+            border:1px solid transparent;
+            border-radius:10px;
+        }
+        ul li a:hover{
+            background-color: crimson;
+            color:white;
+            
+        }
+        .logo img{
+            width:100px;
+            float:left;
+            height:auto;
+            border-radius:50px;
+        }
+        .main{
+            max-width:1200px;
+            margin:auto;
+        }
+        .button{
+            position:absolute;
+            top:50%;
+            left:50%;
+            transform:translate(-50%,-50%);
+        }
+        .btn{
+            border:2px solid blue;
+            padding:10px 30px;
+            color:black;
+            text-decoration: none;
+            border-radius:20px;
+            text-align:center;
+            background-color: aqua;
+        }
+         button .btn a:hover{
+            background-color: mediumvioletred;
+            color:black
+         .menu .fa{
+               margin-right:7px;
+                     }
+       .submenu{ 
+display:none;
+Position:absolute;
+background-color:red;
+}
+#firstid:hover .submenu{
+display:block;
+}
+
+
+                           </style>
+    
+        
+    
+    <body>
+       <header>
+        
+            <div class="main">
+               
+               <div class="menu">
+                <ul>
+                    
+                    <li class="active"><a href="#"><i class="fa fa-home"></i>HOME</a></li>
+                    <li id="firstid" > <a href="#">CATEGORIES</a></li>
+                   <div class="submenu">
+                           <li><a href="#">nursing</a></li>
+                           
+                    <li style="margin-right:7px" > <a href="#"><i class="fa fa-quora"></i>FAQ </a></li>
+                    <li >  <a href="#"><i class="fa fa-user" ></i>ABOUT US</a></li>
+                    <li ><a href="#"><i class="fa fa-phone"></i>CONTACT US</a></li>
+                    
+                </ul>
+            </div>
+           </div>
+        
+    
+        
+              <div class="button">
+    
+                  <a href="#" class="btn">Login</a>
+            <a href="#" class="btn">Signup</a>
+           </div>
+        </header>
+        
+        
+    </body>
+</html>
