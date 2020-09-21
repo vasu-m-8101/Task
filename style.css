@@ -8,8 +8,8 @@ height:100px;
 .search-box
 {
 position:absolute;
-top:50%;
-left:50%;
+top:250px;
+left:250px;
 transform:translate(-50%,-50%)
 
 }
